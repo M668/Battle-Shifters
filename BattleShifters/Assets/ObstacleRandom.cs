@@ -22,7 +22,7 @@ public class ObstacleRandom : MonoBehaviour {
 			((xObs2 == xNum) && (yObs2 == yNum))
 			);
 		transform.position = new Vector2(xNum, yNum);
-
+		Debug.Log ("Finished Obstacle Placement");
 	}
 	
 	// Update is called once per frame

@@ -21,6 +21,7 @@ public class Player1 : MonoBehaviour {
 		do {
 			xNum = Random.Range(-5, 5);
 			yNum = Random.Range(-5, 5);
+			transform.position = new Vector2(xNum, yNum);
 			distanceToPlayer = Vector3.Distance (GameObject.FindGameObjectWithTag ("Enemy").transform.position,
 			                              GameObject.FindGameObjectWithTag ("Player").transform.position);
 		} while (
@@ -34,7 +35,6 @@ public class Player1 : MonoBehaviour {
 			||
 			distanceToPlayer < 5.0
 			);
-		transform.position = new Vector2(xNum, yNum);
 		Debug.Log ("Finished Player Placement");
 	}
 
