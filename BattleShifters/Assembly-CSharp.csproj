@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Enemy.cs" />
+     <Compile Include="Assets\ObstacleRandom.cs" />
      <Compile Include="Assets\Player1.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
